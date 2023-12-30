@@ -1,0 +1,45 @@
+/* core css */
+
+.st-font{
+    font-family: 'Satisfy', cursive;
+}
+
+html,body{
+    margin: 0px;
+    height: 100%;
+}
+
+.container-fluid{
+    min-height: 100%;
+}
+
+.sidebar{
+    padding: 0px;
+}
+
+/* serv css */
+
+.i-color{
+    color: chartreuse;
+}
+
+.ss-color{
+    color: silver;
+}
+
+/* sidebar css */
+
+a.nav-link{
+    color: whitesmoke;
+}
+
+a.nav-link:hover{
+    color: black;
+    background-color: #e9cd79;
+}
+
+a.nav-link.active{
+    color: black;
+    background-color: #ffc107;
+    font-weight: bold;
+}

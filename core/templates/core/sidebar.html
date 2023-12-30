@@ -1,0 +1,19 @@
+{% load static %}
+
+<div class="col-sm-2 sidebar">
+    <div class="border-end border-warning h-100">
+        <div class="text-center">
+            <img src="{% static 'core/images/avatar.png' %}" alt="Profilepic" class="img-fluid rounded-circle mt-5" width="100px" height="100px">
+            <h4 class="text-white mt-3 st-font">Abhik Ganguly</h4>
+        </div>
+        <hr class="border-light mx-3">
+        <div class="text-center">
+            <nav clas="nav flex-column">
+                <a href="{% url 'home' %}" class="nav-link py-3 mx-3 {{home}}">Home</a>
+                <a href="{% url 'services'%}" class="nav-link py-3 mx-3 {{services}}">Services</a>
+                <a href="{% url 'skill' %}" class="nav-link py-3 mx-3 {{skill}}">Skill</a>
+                <a href="{% url 'contact' %}" class="nav-link py-3 mx-3 {{contact}}">Contact</a>
+            </nav>
+        </div>
+    </div>
+</div>
